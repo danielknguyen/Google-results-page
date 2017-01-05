@@ -45,18 +45,32 @@ html {
 }
 #sign-in {
   float:right;
-  margin-top:40px;
-  padding:0 20px;
+  position:absolute;
+  margin-left:26%;
+  margin-top:3%;
+}
+#person button {
+  color:#FFFFFF;
+  background-color:#0B87F3;
+  border-radius:5%;
+  padding:8px 10px;
+  font-weight:bold;
+}
+input [type="button"]{
+  border:none;
+  outline:none;
 }
 #notifications img {
-  height:24px;
-  width:24px;
+  height:18px;
+  width:18px;
   padding-right:15px;
+  vertical-align:bottom;
 }
 #apps-icon img {
-  height:24px;
-  width:24px;
+  height:18px;
+  width:18px;
   padding-right:15px;
+  vertical-align:bottom;
 }
 #person img {
   position:relative;
@@ -69,6 +83,7 @@ html {
   margin-top:-35px;
   padding:0;
   display:block;
+  position:fixed;
 }
 .navi {
   list-style:none;
@@ -90,11 +105,11 @@ html {
 }
 a:link {
   text-decoration:none;
-  color:#666;
+  color:#777;
 }
 a:visited {
   text-decoration:none;
-  color:#666;
+  color:#777;
 }
 a:hover {
   text-decoration:none;
@@ -111,4 +126,18 @@ a:hover {
   position:absolute;
   margin-top:30px;
   margin-left:-30px;
+}
+#tools a:hover {
+  border:0.5px solid #B5B5B5;
+  border-radius:3px;
+  background-color:#f1f1f1;
+  padding:5px 5px;
+  font:#444343;
+}
+#body {
+  border:1px solid black;
+  margin-left:10%;
+  height:100%;
+  width:49%;
+  position:fixed;
 }
